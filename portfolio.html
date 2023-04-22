@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title></title>
+
+        <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="pagePortfolio/assets/css/style.css">
+
+
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="pagePortfolio/assets/css/font-awesome.min.css">
+</head>
+ <body>
+
+        <header id="site-header" class="fixed-top">
+                <div class="container">
+                        <nav class="navbar navbar-expand-lg stroke px-0 py-lg-0">
+
+                                <button class="navbar-toggler  collapsed bg-gradient" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                                        <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
+                                        <span class="navbar-toggler-icon fa icon-close fa-times"></span>
+                                </button>
+
+                                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                                        <ul class="navbar-nav mx-lg-auto">
+                                                <li class="nav-item">
+                                                        <a class="nav-link" href="index.html" target="_blank">Accueil <span class="sr-only">(current)</span></a>
+                                                </li>
+                                        </ul>
+
+
+                                </div>
+
+                                <div class="mobile-position">
+                                        <nav class="navigation">
+                                                <div class="theme-switch-wrapper">
+                                                        <label class="theme-switch" for="checkbox">
+                                                                <input type="checkbox" id="checkbox">
+                                                                <div class="mode-container">
+                                                                        <i class="gg-sun"></i>
+                                                                        <i class="gg-moon"></i>
+                                                                </div>
+                                                        </label>
+                                                </div>
+                                        </nav>
+                                </div>
+
+                        </nav>
+                </div>
+        </header>
+
+        <div class="section-mid-gap"></div>
+        <br><br><br><br>
+
+        <section class="w3l-features py-5" id="work">
+                <div class="container py-lg-5 py-md-4 py-2">
+                        <div class="title-content text-center mb-md-5 mb-4">
+
+                                <h3 class="title-w3l mb-5"><span class="thin">Portfolio</span></h3>
+                        </div>
+                        <div class="row main-cont-wthree-2 pt-lg-5">
+                                <div class="col-lg-8 pr-lg-5">
+                                        <div class="service-grid-left">
+                                                <h3 class="title-w3l mb-3">Bloc 1<span class="thin"> -Mission 1 (Déploiement de l'application Gsbfrais)</span></h3>
+                                                <a href="portfolioMission1.html" class="btn btn-style btn-primary mt-lg-4 mt-4" target="_blank">Présentation</a>
+                                        </div>
+                                </div>
+                                <div class="col-lg-4 service-grid-right mt-lg-0 mt-5">
+                                        <img src="assets/img/imgGSB.png" alt="" class="img-fluid radius-image">
+                                </div>
+                        </div>
+                        <div class="row main-cont-wthree-2 pt-lg-5">
+                                <div class="col-lg-8 pr-lg-5">
+                                        <div class="service-grid-left">
+                                                <h3 class="title-w3l mb-3">Bloc 1<span class="thin"> -Mission 2 (Maintenance corrective de l'application Gsbfrais)</span></h3>
+                                                <a href="portfolioMission2.html" class="btn btn-style btn-primary mt-lg-4 mt-4" target="_blank">Présentation</a>
+                                        </div>
+                                </div>
+                                <div class="col-lg-4 service-grid-right mt-lg-0 mt-5">
+                                        <img src="assets/img/imgGSB.png" alt="" class="img-fluid radius-image">
+                                </div>
+                        </div>
+                        <div class="row main-cont-wthree-2 pt-lg-5">
+                                <div class="col-lg-8 pr-lg-5">
+                                        <div class="service-grid-left">
+                                                <h3 class="title-w3l mb-3">Bloc 1<span class="thin"> -Mission 3 (Maintenance évolutive de l'application Gsbfrais)</span></h3>
+                                                <a href="portfolioMission3.html" class="btn btn-style btn-primary mt-lg-4 mt-4" target="_blank">Présentation</a>
+                                        </div>
+                                </div>
+                                <div class="col-lg-4 service-grid-right mt-lg-0 mt-5">
+                                        <img src="assets/img/imgGSB.png" alt="" class="img-fluid radius-image">
+                                </div>
+                        </div>
+                </div>
+        </section>
+
+
+        <footer class="w3l-footer-29-main">
+
+                <div class="bottom-copies text-center">
+                        <div class="container">
+                                <p class="copy-footer-29">Designed by Aurélien Boitez</a></p>
+                        </div>
+                </div>
+
+
+                <button onclick="topFunction()" id="movetop" title="Go to top">
+                        <span class="fa fa-angle-up"></span>
+                </button>
+                <script>
+
+                        window.onscroll = function() {
+                                scrollFunction()
+                        };
+
+                        function scrollFunction() {
+                                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                                        document.getElementById("movetop").style.display = "block";
+                                } else {
+                                        document.getElementById("movetop").style.display = "none";
+                                }
+                        }
+
+
+                        function topFunction() {
+                                document.body.scrollTop = 0;
+                                document.documentElement.scrollTop = 0;
+                        }
+
+                </script>
+
+        </footer>
+
+        <script src="pagePortfolio/js/jquery-3.3.1.min.js"></script>
+        <script src="pagePortfolio/js/theme.js"></script>
+
+        <script>
+                $(function() {
+                        $('.navbar-toggler').click(function() {
+                                $('body').toggleClass('noscroll');
+                        })
+                });
+
+        </script>
+
+
+        <script>
+                $(window).on("scroll", function() {
+                        var scroll = $(window).scrollTop();
+
+                        if (scroll >= 80) {
+                                $("#site-header").addClass("nav-fixed");
+                        } else {
+                                $("#site-header").removeClass("nav-fixed");
+                        }
+                });
+
+
+                $(".navbar-toggler").on("click", function() {
+                        $("header").toggleClass("active");
+                });
+                $(document).on("ready", function() {
+                        if ($(window).width() > 991) {
+                                $("header").removeClass("active");
+                        }
+                        $(window).on("resize", function() {
+                                if ($(window).width() > 991) {
+                                        $("header").removeClass("active");
+                                }
+                        });
+                });
+
+        </script>
+
+        <script src="pagePortfolio/js/bootstrap.min.js"></script>
+
+
+</body>
+
+</html>
